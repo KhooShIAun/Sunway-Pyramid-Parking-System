@@ -1,0 +1,275 @@
+/* PCPS ASSIGNEMENT 1 GROUP PROJECT
+* CODE CREATED BY KHOO SHI AUN 22068118 AND LEE KAH XIONG 22049530
+* COURSE : DIIT,  GROUP 1
+* DATE = 1/10/2022
+* FILE NAME GROUP_25_PCPS.cpp
+* GROUP MEMBERS : KHOO SHI AUN, LEE KAH XIONG, WONG HAO WEN, MIKYLE GARIEL PINTO
+*/
+# include <iostream>
+using namespace std;
+
+int main()
+{
+	//Data initialisation
+	char ptype, typeday; /*ptype=Parking Type, typeday=Type of Day*/
+	float hpark; /*hpark= Hours Parked*/
+
+	//input
+	cout << "Welcome to Sunway Pyramid Parking" << endl;
+	cout << "Choose an option : A = Normal Parking, B = Preferred Parking, C = Valet Parking, D = Lost Ticket  :";
+	cin >> ptype;
+
+	//Process
+	if (ptype == 'C')
+	{
+		cout << "Parking Fee = RM 15";
+	}
+	else if (ptype == 'D')
+	{
+		cout << "Lost Ticket Penalty Fee = RM 20";
+	}
+	else if (ptype == 'A')
+	{
+		cout << "Choose a option for the type of day: A = Weekday, B = Weekends or Eve of Public Holidays & Publics Holidays  :";
+		cin >> typeday;
+		if (typeday == 'A')
+		{
+			cout << "Numbers of Hours Parked: ";
+			cin >> hpark;
+			if (hpark >= 1 && hpark <= 2)
+			{
+				cout << "Parking Fee = RM 2 " << endl;
+			}
+			else if (hpark == 3)
+			{
+				cout << "Parking Fee = RM 3 " << endl;
+			}
+			else if (hpark == 4)
+			{
+				cout << "Parking Fee = RM  4" << endl;
+			}
+			else if (hpark == 5)
+			{
+				cout << "Parking Fee = RM  5" << endl;
+			}
+			else if (hpark == 6)
+			{
+				cout << "Parking Fee = RM  6" << endl;
+			}
+			else if (hpark == 7)
+			{
+				cout << "Parking Fee = RM  7" << endl;
+			}
+			else if (hpark == 8)
+			{
+				cout << "Parking Fee = RM  8" << endl;
+			}
+			else if (hpark == 9)
+			{
+				cout << "Parking Fee = RM  9" << endl;
+			}
+			else if (hpark == 10)
+			{
+				cout << "Parking Fee = RM  10" << endl;
+			}
+			else if (hpark == 11)
+			{
+				cout << "Parking Fee = RM  11" << endl;
+			}
+			else if (hpark == 12)
+			{
+				cout << "Parking Fee = RM  12" << endl;
+			}
+			else if (hpark >= 13)
+			{
+				cout << "Parking Fee = RM 12" << endl;
+			}
+			else
+			{
+				cout << "ERROR";
+			}
+		}
+		else  if (typeday == 'B')
+		{
+			cout << "Number of Hours Parked: ";
+			cin >> hpark;
+			if (hpark >= 1 && hpark <= 2)
+			{
+				cout << "Parking Fee = RM 3" << endl;
+			}
+			else if (hpark == 3)
+			{
+				cout << "Parking Fee = RM 4" << endl;
+			}
+			else if (hpark == 4)
+			{
+				cout << "Parking Fee = RM  5" << endl;
+			}
+			else if (hpark == 5)
+			{
+				cout << "Parking Fee = RM  6" << endl;
+			}
+			else if (hpark == 6)
+			{
+				cout << "Parking Fee = RM  7" << endl;
+			}
+			else if (hpark == 7)
+			{
+				cout << "Parking Fee = RM  8" << endl;
+			}
+			else if (hpark == 8)
+			{
+				cout << "Parking Fee = RM 9" << endl;
+			}
+			else if (hpark == 9)
+			{
+				cout << "Parking Fee = RM  10" << endl;
+			}
+			else if (hpark == 10)
+			{
+				cout << "Parking Fee = RM  11" << endl;
+			}
+			else if (hpark == 11)
+			{
+				cout << "Parking Fee = RM  12" << endl;
+			}
+			else if (hpark == 12)
+			{
+				cout << "Parking Fee = RM  13" << endl;
+			}
+			else if (hpark == 13)
+			{
+				cout << "Parking Fee = RM  14" << endl;
+			}
+			else if (hpark == 14)
+			{
+				cout << "Parking Fee = RM  15" << endl;
+			}
+			else if (hpark == 15)
+			{
+				cout << "Parking Fee = RM  15" << endl;
+			}
+			else if (hpark >= 16)
+			{
+				cout << "Parking Fee = RM 15" << endl;
+			}
+			else
+			{
+				cout << "ERROR";
+			}
+		}
+	}
+	else if (ptype == 'B')
+	{
+		cout << "Choose a option for the type of day: A = Weekday, B = Weekends or Eve of Public Holidays & Publics Holidays  :";
+		cin >> typeday;
+		if (typeday == 'A')
+		{
+			cout << "Numbers of Hours Parked: ";
+			cin >> hpark;
+			if (hpark >= 1 && hpark <= 2)
+			{
+				cout << "Parking Fee = RM 5 " << endl;
+			}
+			else if (hpark == 3)
+			{
+				cout << "Parking Fee = RM 6" << endl;
+			}
+			else if (hpark == 4)
+			{
+				cout << "Parking Fee = RM  7" << endl;
+			}
+			else if (hpark == 5)
+			{
+				cout << "Parking Fee = RM  8" << endl;
+			}
+			else if (hpark == 6)
+			{
+				cout << "Parking Fee = RM  9" << endl;
+			}
+			else if (hpark == 7)
+			{
+				cout << "Parking Fee = RM  10" << endl;
+			}
+			else if (hpark == 8)
+			{
+				cout << "Parking Fee = RM  11" << endl;
+			}
+			else if (hpark == 9)
+			{
+				cout << "Parking Fee = RM  12" << endl;
+			}
+			else if (hpark >= 10)
+			{
+				cout << "Parking Fee = RM 12" << endl;
+			}
+			else
+			{
+				cout << "ERROR";
+			}
+
+		}
+		else  if (typeday == 'B')
+		{
+			cout << "Number of Hours Parked: ";
+			cin >> hpark;
+			if (hpark >= 1 && hpark <= 2)
+			{
+				cout << "Parking Fee = RM 5" << endl;
+			}
+			else if (hpark == 3)
+			{
+				cout << "Parking Fee = RM 6" << endl;
+			}
+			else if (hpark == 4)
+			{
+				cout << "Parking Fee = RM  7" << endl;
+			}
+			else if (hpark == 5)
+			{
+				cout << "Parking Fee = RM  8" << endl;
+			}
+			else if (hpark == 6)
+			{
+				cout << "Parking Fee = RM  9" << endl;
+			}
+			else if (hpark == 7)
+			{
+				cout << "Parking Fee = RM 10 " << endl;
+			}
+			else if (hpark == 8)
+			{
+				cout << "Parking Fee = RM 10" << endl;
+			}
+			else if (hpark == 9)
+			{
+				cout << "Parking Fee = RM 12" << endl;
+			}
+			else if (hpark == 10)
+			{
+				cout << "Parking Fee = RM 13" << endl;
+			}
+			else if (hpark == 11)
+			{
+				cout << "Parking Fee = RM 14" << endl;
+			}
+			else if (hpark == 12)
+			{
+				cout << "Parking Fee = RM 15" << endl;
+			}
+			else if (hpark == 13)
+			{
+				cout << "Parking Fee = RM 15" << endl;
+			}
+			else if (hpark >= 14)
+			{
+				cout << "Parking Fee = RM 15" << endl;
+			}
+			else
+			{
+				cout << "ERROR";
+			}
+		}
+	}
+	return 0;
+}
